@@ -1,0 +1,61 @@
+{
+  "readmeUrl": "https://raw.githubusercontent.com/debanjandhara/debanjandhara/main/README.md",
+  "title": "Debanjan's Portfolio Website",
+  "name": "Debanjan Dhara",
+  "ascii": "Debanjan Dhara",
+  "social": {
+    "github": "debanjandhara",
+    "linkedin": "debanjandhara"
+  },
+  "email": "dd.debanjandhara@gmail.com",
+  "ps1_hostname": "publicIP",
+  "ps1_username": "guest",
+  "repo": "https://github.com/debanjandhara/personal_portfolio_website",
+  "resume_url": "https://drive.google.com/drive/folders/1fYni9uSIrZSmy1BkaL4A8APwBKhMT2OT?usp=drive_link",
+  "colors": {
+    "light": {
+      "name": "HighContrast",
+      "black": "#000000",
+      "red": "#FF0000",
+      "green": "#00FF00",
+      "yellow": "#FFFF00",
+      "blue": "#00BFFF",
+      "purple": "#FFC0CB",
+      "cyan": "#40E0D0",
+      "white": "#BEBEBE",
+      "brightBlack": "#414141",
+      "brightRed": "#FFA500",
+      "brightGreen": "#98FB98",
+      "brightYellow": "#FFFF00",
+      "brightBlue": "#0000CD",
+      "brightPurple": "#A020F0",
+      "brightCyan": "#AEEEEE",
+      "brightWhite": "#FFFFFF",
+      "foreground": "#FDFDFD",
+      "background": "#000000",
+      "cursorColor": "#FDFDFD"
+    },
+    "dark": {
+      "name": "HighContrast",
+      "black": "#000000",
+      "red": "#FF0000",
+      "green": "#00FF00",
+      "yellow": "#FFFF00",
+      "blue": "#00BFFF",
+      "purple": "#FFC0CB",
+      "cyan": "#40E0D0",
+      "white": "#BEBEBE",
+      "brightBlack": "#414141",
+      "brightRed": "#FFA500",
+      "brightGreen": "#98FB98",
+      "brightYellow": "#FFFF00",
+      "brightBlue": "#0000CD",
+      "brightPurple": "#A020F0",
+      "brightCyan": "#AEEEEE",
+      "brightWhite": "#FFFFFF",
+      "foreground": "#FDFDFD",
+      "background": "#000000",
+      "cursorColor": "#FDFDFD"
+    }
+  }
+}
