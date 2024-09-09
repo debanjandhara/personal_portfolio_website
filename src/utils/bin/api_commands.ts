@@ -15,10 +15,27 @@ export const projects = async (args: string[]): Promise<string> => {
     .join('\n');
 };
 
+// export const quote = async (args: string[]): Promise<string> => {
+//   console.log("start")
+//   const data = await getQuote();
+//   console.log("end")
+//   return data.quote;
+// };
+
 export const quote = async (args: string[]): Promise<string> => {
-  const data = await getQuote();
-  return data.quote;
+  try {
+    console.log("start");
+    
+    const data = await getQuote();
+    
+    console.log("end");
+    return data.quote;
+  } catch (error) {
+    console.error("Error while fetching quote:", error);
+    return "Failed to fetch quote";
+  }
 };
+
 
 export const readme = async (args: string[]): Promise<string> => {
   const readme = await getReadme();

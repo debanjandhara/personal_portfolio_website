@@ -6,14 +6,21 @@ import config from '../../../config.json';
 // Help
 export const help = async (args: string[]): Promise<string> => {
   const commands = Object.keys(bin).sort().join(', ');
-  var c = '';
-  for (let i = 1; i <= Object.keys(bin).sort().length; i++) {
-    if (i % 7 === 0) {
-      c += Object.keys(bin).sort()[i - 1] + '\n';
-    } else {
-      c += Object.keys(bin).sort()[i - 1] + ' ';
-    }
-  }
+  var c = `Available Commands:
+====================
+
+About me:
+---------
+about, banner, readme, linkedin, repo, email, github, projects, resume, summary
+
+Searches:
+---------
+weather [city], google [search], duckduckgo [search], reddit [search], bing [search], quote
+
+Utils:
+------
+cd, date, echo, emacs, help, ls, nvim, vi, vim, whoami
+`;
   return `Welcome! Here are all the available commands:
 \n${c}\n
 [tab]: trigger completion.
@@ -43,10 +50,10 @@ export const resume = async (args: string[]): Promise<string> => {
   return 'Opening resume...';
 };
 
-// Custom Command
-export const custom = async (args: string[]): Promise<string> => {
-  return `custom command here`;
-};
+// // Custom Command
+// export const custom = async (args: string[]): Promise<string> => {
+//   return `custom command here`;
+// };
 
 // Contact
 export const email = async (args: string[]): Promise<string> => {
